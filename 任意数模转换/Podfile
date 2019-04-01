@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '任意数模转换' do
+  pod 'AFNetworking'
+   pod 'JSONModel'
+  target '任意数模转换Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '任意数模转换UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
